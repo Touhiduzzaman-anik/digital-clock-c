@@ -27,7 +27,7 @@ int main() {
         system("cls");
 
         printf(" DIGITAL CLOCK\n");
-        printf("---------------\n");
+        printf("----------------\n");
 
         printf(" %02d:%02d:%02d %s\n",
                hour12,
@@ -40,7 +40,7 @@ int main() {
                localTime->tm_mon + 1,
                localTime->tm_year + 1900);
 
-            printf("---------------\n\n");   
+            printf("----------------\n\n");   
             printf("Press Ctrl + C to exit\n");
 
         Sleep(1000);
